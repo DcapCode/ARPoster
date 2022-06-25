@@ -1,4 +1,4 @@
-import { getWalletBalance } from '../utils/ArweaveUtils';
+import { getWalletBalance } from '../lib/utils/ArweaveUtils';
 import { writable } from 'svelte/store';
 
 export const walletBalance = writable(0);

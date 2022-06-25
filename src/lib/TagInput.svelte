@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { isBlankOrEmpty } from '../utils/ValidatorUtils';
+	import { isBlankOrEmpty } from '$lib/utils/ValidatorUtils';
 	import { fade } from 'svelte/transition';
-	import Button from '../components/Button.svelte';
+	import Button from '$lib/Button.svelte';
 	import { onMount } from 'svelte';
 
 	const error = {

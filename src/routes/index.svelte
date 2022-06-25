@@ -1,14 +1,14 @@
 <script lang="ts">
-	import { isBlank, isEmpty } from '../utils/ValidatorUtils';
-	import TagInput from '../components/TagInput.svelte';
-	import { createArweavePost, getPostCost } from '../utils/ArweaveUtils';
-	import Button from '../components/Button.svelte';
+	import { isBlank, isEmpty } from '$lib/utils/ValidatorUtils';
+	import TagInput from '$lib/TagInput.svelte';
+	import { createArweavePost, getPostCost } from '$lib/utils/ArweaveUtils';
+	import Button from '$lib/Button.svelte';
 	import { tags } from '../stores/tagStore';
-	import InputError from '../components/InputError.svelte';
-	import PostCost from '../components/PostCost.svelte';
-	import WalletBalance from '../components/WalletBalance.svelte';
+	import InputError from '$lib/InputError.svelte';
+	import PostCost from '$lib/PostCost.svelte';
+	import WalletBalance from '$lib/WalletBalance.svelte';
 	import { walletBalance } from '../stores/walletStore';
-	import ResultModal from '../components/ResultModal.svelte';
+	import ResultModal from '$lib/ResultModal.svelte';
 	import { showModal, showResultModal } from '../stores/resultModalStore';
 	import { loading } from '../stores/loadingStore';
 	import Loading from '$lib/Loading.svelte';

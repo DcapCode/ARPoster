@@ -1,5 +1,5 @@
 import Arweave from 'arweave';
-import type { TransactionResult } from '../models/TransactionResult';
+import type { TransactionResult } from '$lib/models/TransactionResult';
 
 // const arweave = Arweave.init({
 //     host: "arweave.net",
@@ -8,6 +8,7 @@ import type { TransactionResult } from '../models/TransactionResult';
 //     timeout: 100000,
 //     logging: false,
 //   });
+
 //TODO CHANGE THIS TO LIVE VERSION
 const arweave = Arweave.init({
 	host: 'localhost',

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import WalletConnection from '../components/WalletConnection.svelte';
+	import WalletConnection from './WalletConnection.svelte';
 	let isMobileNavOpen = false;
 	const toggleMobileNav = () => (isMobileNavOpen = !isMobileNavOpen);
 

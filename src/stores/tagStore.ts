@@ -1,18 +1,6 @@
 import { writable } from 'svelte/store';
 
 const data = [
-	{
-		name: 'Content-Type',
-		value: 'application/json'
-	},
-	{
-		name: 'AppName',
-		value: 'dcapedcode'
-	},
-	{
-		name: 'Section',
-		value: 'projectposts'
-	}
 ];
 
 function createTag(initialItems) {

@@ -1,9 +1,4 @@
 import { writable } from 'svelte/store';
-// import { scaleOrdinal } from 'd3-scale';
-// import { schemeTableau10 } from 'd3-scale-chromatic';
-
-// color scale used in both visualizations
-// const colorScale = scaleOrdinal(schemeTableau10);
 
 // in the store describe a list of items by name and value
 const data = [
@@ -15,7 +10,6 @@ const data = [
 
 // create a custom store fulfilling the CRUD operations
 function createTag(initialItems) {
-	// calculateTagSize(initialItems);
 	const { subscribe, update, set } = writable(initialItems);
 
 	return {
